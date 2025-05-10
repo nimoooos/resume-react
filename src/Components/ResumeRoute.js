@@ -46,6 +46,27 @@ export default function ResumeRoute() {
     ]
     const projects = [
         {
+            "projectName": "COMP/CON",
+            "repository": {
+                "link": "https://github.com/massif-press/compcon/pulls/nimoooos",
+                "imgAlt": "COMP/CON Pull Requests",
+                "imgSrc": "https://img.shields.io/badge/GitHub-Pull_Requests-Black"
+            },
+            "technologies": "TypeScript, Vue, Node.js, GitHub",
+            "roles": [
+                {
+                    "role": "Open Source Contributor",
+                    "longDescription": "While onboarding, I self-taught Vue.js and quickly ramped up on a high-complexity codebase, contributing new features to improve both functionality and user experience. I implemented a data visualization tool that allows users to export session prep materials, and collaborated closely with the expansion’s lead designer to deliver a key narrative feature ahead of release. Throughout the process, I adhered to commit guidelines and adopted best practices in collaborative development within an active open-source project.",
+                    "bulletPoints": [
+                        "Collaborated with an expansion’s lead designer to deliver a key narrative feature, completing implementation ahead of release and maintaining system stability.",
+                        "Self-learned Vue.js in parallel with onboarding, enabling seamless integration of new features into a high-complexity system.",
+                        "Implemented a new data visualization feature to empower users to export session prep materials.",
+                        "Followed commit guidelines and learned collaborative development practices during contribution.",
+                    ]
+                }
+            ]
+        },
+        {
             "projectName": "Professional Website",
             "repository": {
                 "link": "https://github.com/nimoooos/resume-react",
@@ -66,27 +87,6 @@ export default function ResumeRoute() {
             ]
         },
         {
-            "projectName": "COMP/CON",
-            "repository": {
-                "link": "https://github.com/massif-press/compcon/pulls/nimoooos",
-                "imgAlt": "COMP/CON Pull Requests",
-                "imgSrc": "https://img.shields.io/badge/GitHub-Pull_Requests-Black"
-            },
-            "technologies": "TypeScript, Vue, Node.js, GitHub",
-            "roles": [
-                {
-                    "role": "Open Source Contributor",
-                    "longDescription": "Enhanced user experience of COMP/CON (an open-source companion app for LANCER RPG) by implementing several features that improve user experience, while preserving original functionality. This streamlined user experience for players by reducing the need to reference an external source during gameplay.",
-                    "bulletPoints": [
-                        "Identified friction points in user experience and implemented solutions to enhance usability.",
-                        "Implemented non-breaking features that adds expanded access to relevant information.",
-                        "Reduced user reliance on external references during operation.",
-                        "Followed commit guidelines and learned collaborative development practices during contribution."
-                    ]
-                }
-            ]
-        },
-        {
             "projectName": "Electronic Training Resource Integration Council (eTRIC)",
             "repository": {
                 "link": "",
@@ -96,7 +96,7 @@ export default function ResumeRoute() {
             "technologies": "Java (SpringBoot), JavaScript (Angular), Database (Postgres), Docker, GitLab, Linux (WSL, Ubuntu)",
             "roles": [
                 {
-                    "role": "Maintainer, Transition Lead",
+                    "role": "Maintainer",
                     "longDescription": "Led the maintenance of eTRIC for 6 months. Faced challenges as the sole maintainer of the project with minimal documentation, and eventually led to decommissioning of eTRIC due to resource constraints. Following the determination, immediately began identifying alternate solutions to continue the functionality of the project.",
                     "bulletPoints": [
                         "Led the maintenance of eTRIC for 6 months, overcoming challenges as the sole maintainer with minimal documentation.",
@@ -119,9 +119,9 @@ export default function ResumeRoute() {
                     "longDescription": "Led development of PATRIC in accordance with regulatory and end user requirements. Utilized ODATA queries for data retrieval and implemented CRUD functionality for bids, enabling administrators and bidders to manage bids efficiently. Created user-friendly data visualization through consistent feedback cycle, facilitating resource management for 30 entities, including Joint Forces such as the US Army, Navy, Marines, and Air Force, encompassing over 300 ranges and providing visualization of bidding activities.",
                     "bulletPoints": [
                         "Led development of PATRIC, ensuring compliance with regulatory and end-user requirements.",
-                        "Implemented ODATA queries and CRUD functionality for efficient bid management by administrators and bidders.",
-                        "Developed user-friendly data visualization through iterative feedback cycles.",
-                        "Facilitated resource management for 30+ government entities, by effectively presenting over 1000 annual bids for over 300 ranges."
+                        "Implemented OData queries and CRUD functionality for efficient bid management by end users.",
+                        "Transformed end-user feedback into fully functional features and a streamlined UI, enhancing overall usability and functionality.",
+                        "Facilitated resource management for 30+ government entities, by effectively presenting 1000+ annual bids for 300+ ranges."
                     ]
                 }
             ]
@@ -134,21 +134,21 @@ export default function ResumeRoute() {
                 "imgAlt": "Guadalcanal-Cup-Scoring Repository",
                 "imgSrc": "https://img.shields.io/badge/GitHub-Repository-Black"
             },
-            "technologies": "Python (Flask, SQLAlchemy), SQL (Postgres), HTML (CSS, Bootstrap, JavaScript), render.com",
+            "technologies": "Python (Flask, SQLAlchemy), SQL (Postgres, ORM), HTML (CSS, Bootstrap, JavaScript), render.com",
             "roles": [
                 {
-                    "role": "Development Lead",
+                    "role": "Lead Developer",
                     "longDescription": "Developed a web-based scoring application for managing scores in a sports tournament involving 20 teams and 18 events. Implemented CRUD operations and score calculation algorithms based on team placements and event weights. Identified bottleneck and optimized load time by implementing snapshotting for database access, resulting in an 85% reduction in load time. Implemented CSV export functionality for quick and easy data backup and sharing.",
                     "bulletPoints": [
-                        "Developed a real-time web-based scoring application for 20 teams across 18 events",
-                        "Implemented CRUD operations and score calculation algorithms based on user requirements",
-                        "Identified and optimized database access bottleneck, reducing worst case load time by up to 85%",
-                        "Added CSV export functionality to meet user request"
+                        "Developed a real-time, web-based leaderboard, supporting 20 teams across 18 events.",
+                        "Implemented CRUD operations and score calculation algorithms based on user requirements, streamlining the previous Excel-based system.",
+                        "Identified and optimized database access bottleneck, reducing worst case load time by up to 85%.",
+                        "Collaborated with event owners to implement CSV export functionality, enabling data backup and providing a fallback to manual processes in case of system disruptions.",
+                        "Trained and mentored team members on the codebase to prepare for the next project cycle, saving development time and ensuring a smooth transition."
                     ]
                 }
             ]
         },
-
         {
             "projectName": "DFAC Dash",
             "repository": {
@@ -162,19 +162,20 @@ export default function ResumeRoute() {
                     "role": "Frontend Developer",
                     "longDescription": "Contributed to the development of a web application aimed at optimizing operations for military Dining Facilities (DFACs), facilitating the seamless handling of to-go orders from receipt to handoff. Primarily worked on frontend, attempting to minimize the number of clicks needed to perform primary function. Produced during Bravo 11 Hackathon.",
                     "bulletPoints": [
-                        "Competed in Bravo 11 Hackathon, contributing to the week-long development of the web app",
-                        "Reduced friction and streamlined user flow to improve efficiency and usability",
-                        "Contributed to API design to ensure seamless communication between frontend and backend systems",
-                        "Authored installation instructions in README.md, facilitating team collaboration, onboarding processes, and streamlined development practices"
+                        "Competed in Bravo 11 Hackathon, contributing to the completion of project prototype within deadline.",
+                        "Contributed to API design to ensure seamless communication between frontend and backend systems.",
+                        "Adopted and advocated for using Docker for local development, enhancing team collaboration and code consistency.",
+                        "Implemented a user-friendly interface to minimize the number of clicks needed to perform primary functions.",
+                        "Authored installation instructions in README.md, facilitating team collaboration, onboarding processes, and streamlined development practices."
                     ]
                 },
                 {
                     "role": "Database Transition Lead",
                     "longDescription": "Played an instrumental role in upgrading the database from PostgreSQL to MongoDB, enhancing code readability, maintainability, and scalability. This upgrade also involved the design and implementation of a REST API to enable efficient communication between components.",
                     "bulletPoints": [
-                        "Adopted MongoDB for its JSON-style storage format, improving data compatibility with web standards",
-                        "Refactored raw SQL queries and implemented ORM, enhancing code readability and maintainability",
-                        "Designed and implemented a REST API to facilitate efficient communication between components"
+                        "Adopted MongoDB for its JSON-style storage format, improving data compatibility with web standards.",
+                        "Refactored raw SQL queries and implemented ORM, enhancing code readability and maintainability.",
+                        "Designed and implemented a REST API to facilitate efficient communication between components."
                     ]
                 }
             ],
@@ -182,7 +183,7 @@ export default function ResumeRoute() {
     ]
 
     return (
-        <div className="container container-md border border-secondary m-3" style={stylesheet}>
+        <div className="container border border-secondary m-3" style={stylesheet}>
             <div className="todo d-none">
                 <h1>TODO</h1>
                 <li>Turn entries into reusable components</li>
