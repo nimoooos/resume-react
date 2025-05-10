@@ -21,8 +21,8 @@ export default function Contacts() {
         name: "GitHub"
     },
     {
-        link: "https://www.nimoooos.work/contacts",
-        display: "https://www.nimoooos.work/contacts",
+        link: "https://www.nimoooos.work",
+        display: "https://www.nimoooos.work",
         name: "Website"
     }
   ];

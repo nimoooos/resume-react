@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import stylesheet from '../css/Resume.css'
 
 export default function ResumeRoute() {
-    const city = "Santa Clara, CA 95050"
+    const city = "San Jose, California"
     const email = "d.song.149@gmail.com"
     const professionalSummary = "Adaptive and versatile Full Stack Developer with comprehensive experience in web application development. Demonstrated success in leading projects to completion, migrating applications to new stacks, and improving user experiences. Proven ability to streamline operations and contribute to collaborative development environments."
     const competencies = [
@@ -242,7 +242,8 @@ export default function ResumeRoute() {
             })}
             <hr className="horizontalLine" />
             <h2>Experiences</h2>
-            <h4>Full Stack Developer - Lightning Labs (Jul 2023 - Current)</h4>
+
+            <h3>Full Stack Developer - Lightning Labs (Jul 2023 - Jan 2025)</h3>
             <ul className="bulletPoints">
                 <li>Led multiple full stack web applications through SDLC, ensuring timely delivery and high-quality products</li>
                 <li>Conducted regular usability testing to enhance user satisfaction and improve product interfaces</li>
@@ -251,10 +252,10 @@ export default function ResumeRoute() {
             <hr className="horizontalLine" />
             <h2>Education and Certifications</h2>
             <ul className="bulletPoints">
+                <li>Microsoft Software Systems Academy - Cloud Application Development (PCAD17)</li>
                 <li>B.S. Computer Science (Candidate) - Hawaii Pacific University</li>
                 <li>A.S. Biotechnology - Ohlone College</li>
                 <li>CompTIA Security+ SYA-701</li>
-                <li>CompTIA Network+ (Candidate)</li>
             </ul>
         </div>
 
