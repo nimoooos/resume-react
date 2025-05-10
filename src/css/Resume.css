@@ -1,10 +1,12 @@
 h1{
     color:black;
+    margin: 0 0 0 0;
 }
 
 h2{
-    color:black;
-    font-weight: 600;
+    color: black;
+    margin: 0 0 0 0;
+    text-decoration: underline;
 }
 
 h3{
@@ -14,6 +16,10 @@ h3{
 
 .horizontalLine{
     margin: 0;
+}
+
+tr.competenciesRow:nth-child(odd) {
+    background-color: lightgray;
 }
 
 .projectBlock{

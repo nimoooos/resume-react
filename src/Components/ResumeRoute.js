@@ -4,8 +4,67 @@ import stylesheet from '../css/Resume.css'
 export default function ResumeRoute() {
     const city = "San Jose, California"
     const email = "d.song.149@gmail.com"
-    const professionalSummary="Adaptive and versatile Full Stack Developer with comprehensive experience in web application development. Demonstrated success in leading projects to completion, migrating applications to new stacks, and improving user experiences. Proficient in JavaScript (TypeScript, React, Vue, jQuery, Node.js), Python, and Power Apps, with skills in tools including Node.js, Git, and Docker. Proven ability to streamline operations and contribute to collaborative development environments."
+    const professionalSummary = "Adaptive and versatile Full Stack Developer with comprehensive experience in web application development. Demonstrated success in leading projects to completion, migrating applications to new stacks, and improving user experiences. Proven ability to streamline operations and contribute to collaborative development environments."
+    const competencies = [
+        {
+            "category": "Languages",
+            "competencies": [
+                "JavaScript/TypeScript (React, Vue, Node.js)",
+                "C# (.NET)",
+                "Python (Flask, SQLAlchemy)",
+                "HTML",
+                "CSS (Bootstrap)",
+            ]
+        },
+        {
+            "category": "Tools",
+            "competencies": [
+                "Git (GitHub, GitLab)",
+                "Container (Docker)",
+                "Database (PostgreSQL, MongoDB, ORM)",
+                "Linux (WSL, Ubuntu)",
+                "Hosting (CloudFlare, render.com)",
+                "Microsoft 365 Suite (Power App, Power Automate, Power BI, SharePoint List)",
+            ]
+        },
+        {
+            "category": "Certifications",
+            "competencies": [
+                "CompTIA Security+ SYA-701",
+            ]
+        },
+        {
+            "category": "Other",
+            "competencies": [
+                "Agile Development",
+                "REST API Design",
+                "User Experience Design",
+                "Data Visualization",
+                "English/Korean Bilingual"
+            ]
+        },
+    ]
     const projects = [
+        {
+            "projectName": "Professional Website",
+            "repository": {
+                "link": "https://github.com/nimoooos/resume-react",
+                "imgAlt": "GitHub Repository",
+                "imgSrc": "https://img.shields.io/badge/GitHub-Repository-Black"
+            },
+            "technologies": "JavaScript (React), HTML (CSS, Bootstrap), CloudFlare, GitHub",
+            "roles": [
+                {
+                    "role": "Webmaster",
+                    "longDescription": "Designed and developed a website to showcase projects and skills. Implemented responsive design principles to ensure optimal viewing experience across devices. Utilized CloudFlare for domain management and hosting.",
+                    "bulletPoints": [
+                        "Designed and developed a website to showcase projects and skills.",
+                        "Implemented responsive design principles for optimal viewing experience across devices.",
+                        "Utilized CloudFlare for domain management and hosting."
+                    ]
+                }
+            ]
+        },
         {
             "projectName": "COMP/CON",
             "repository": {
@@ -19,6 +78,7 @@ export default function ResumeRoute() {
                     "role": "Open Source Contributor",
                     "longDescription": "Enhanced user experience of COMP/CON (an open-source companion app for LANCER RPG) by implementing several features that improve user experience, while preserving original functionality. This streamlined user experience for players by reducing the need to reference an external source during gameplay.",
                     "bulletPoints": [
+                        "Identified friction points in user experience and implemented solutions to enhance usability.",
                         "Implemented non-breaking features that adds expanded access to relevant information.",
                         "Reduced user reliance on external references during operation.",
                         "Followed commit guidelines and learned collaborative development practices during contribution."
@@ -31,9 +91,9 @@ export default function ResumeRoute() {
             "repository": {
                 "link": "",
                 "imgAlt": "Decommissioned",
-                "imgSrc": "https://img.shields.io/badge/Decommissioned-red"
+                "imgSrc": "https://img.shields.io/badge/GitLab-Decommissioned-red"
             },
-            "technologies": "Java (SpringBoot), Javascript (Angular), Database (Postgres), Docker, GitLab, Linux (WSL, Ubuntu)",
+            "technologies": "Java (SpringBoot), JavaScript (Angular), Database (Postgres), Docker, GitLab, Linux (WSL, Ubuntu)",
             "roles": [
                 {
                     "role": "Maintainer, Transition Lead",
@@ -47,13 +107,12 @@ export default function ResumeRoute() {
         },
         {
             "projectName": "Power App for Training Resource Integration Council (PATRIC)",
-
             "repository": {
                 "link": "",
                 "imgAlt": "Proprietary",
-                "imgSrc": "https://img.shields.io/badge/Proprietary-lightgray"
+                "imgSrc": "https://img.shields.io/badge/Power_App-Proprietary-red"
             },
-            "technologies": "Microsoft 365 Suite (Power App, SharePoint List)",
+            "technologies": "Microsoft 365 Suite (Power App, SharePoint List, Power Automate), OData",
             "roles": [
                 {
                     "role": "Lead Developer",
@@ -73,9 +132,9 @@ export default function ResumeRoute() {
             "repository": {
                 "link": "https://github.com/nimoooos/Guadalcanal-Cup-Scoring",
                 "imgAlt": "Guadalcanal-Cup-Scoring Repository",
-                "imgSrc": "https://img.shields.io/badge/GitHub-black"
+                "imgSrc": "https://img.shields.io/badge/GitHub-Repository-Black"
             },
-            "technologies": "Python (Flask), SQL (Postgres), HTML (CSS, bootstrap, Javascript), render.com",
+            "technologies": "Python (Flask, SQLAlchemy), SQL (Postgres), HTML (CSS, Bootstrap, JavaScript), render.com",
             "roles": [
                 {
                     "role": "Development Lead",
@@ -89,15 +148,15 @@ export default function ResumeRoute() {
                 }
             ]
         },
-        
+
         {
             "projectName": "DFAC Dash",
             "repository": {
                 "link": "",
                 "imgAlt": "Proprietary",
-                "imgSrc": "https://img.shields.io/badge/Proprietary-lightgray"
+                "imgSrc": "https://img.shields.io/badge/GitHub-Proprietary-red"
             },
-            "technologies": "Javascript (React-CRA, bcrypt, Axios(REST API), Express, Node.js), Database (MongoDB, Postgres), HTML (CSS, bootstrap), GitHub, Docker",
+            "technologies": "JavaScript (React-CRA, bcrypt, Axios(REST API), Express, Node.js), Database (MongoDB, Postgres), HTML (CSS, Bootstrap), GitHub, Docker",
             "roles": [
                 {
                     "role": "Frontend Developer",
@@ -134,11 +193,28 @@ export default function ResumeRoute() {
             <h1>Soomin Song</h1>
             <p className="contact-info">{city} | <a target="_blank" rel="noreferrer" href={`mailto:${email}`}>{email}</a> | <a href="https://nimoooos.work">https://nimoooos.work</a></p>
             <p>{professionalSummary}</p>
-            <hr className="horizontalLine"/>
+            <hr className="horizontalLine" />
+            <h2>Competencies</h2>
+            <table className="competenciesTable">
+                {competencies.map((x) => {
+                    return (
+                        <tr className="competenciesRow">
+                            <th className="competenciesCategory">{x.category}</th>
+                            <td className="competenciesList">
+                                | {x.competencies.map((y) => {
+                                    return `${y} | `
+                                })}
+                            </td>
+                        </tr>
+                    )
+                })}
+            </table>
+
+            <hr className="horizontalLine" />
             <h2>Projects</h2>
             {projects.map((x) => {
                 return (<div className="projectBlock">
-                    <h4 className="project">{x.projectName+" "}
+                    <h4 className="project">{x.projectName + " "}
                         {
                             x.repository.link ?
                                 <Link to={x.repository.link}>
@@ -164,14 +240,16 @@ export default function ResumeRoute() {
                 </div>
                 )
             })}
-            <hr className="horizontalLine"/>
+            <hr className="horizontalLine" />
             <h2>Experiences</h2>
+
             <h3>Full Stack Developer - Lightning Labs (Jul 2023 - Jan 2025)</h3>
             <ul className="bulletPoints">
                 <li>Led multiple full stack web applications through SDLC, ensuring timely delivery and high-quality products</li>
                 <li>Conducted regular usability testing to enhance user satisfaction and improve product interfaces</li>
                 <li>Trained and mentored new developers to enhance their skills and contribute effectively to the team</li>
             </ul>
+            <hr className="horizontalLine" />
             <h2>Education and Certifications</h2>
             <ul className="bulletPoints">
                 <li>Microsoft Software Systems Academy - Cloud Application Development (PCAD17)</li>
