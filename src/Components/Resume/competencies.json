@@ -1,0 +1,42 @@
+{
+  "data": [
+    {
+      "category": "Languages",
+      "competencies": [
+        "JavaScript/TypeScript (React, Vue, Node.js)",
+        "C# (.NET)",
+        "Python (Flask, SQLAlchemy)",
+        "HTML",
+        "CSS (Bootstrap)"
+      ]
+    },
+    {
+      "category": "Tools",
+      "competencies": [
+        "Git (GitHub, GitLab)",
+        "Container (Docker)",
+        "Database (PostgreSQL, MongoDB, ORM)",
+        "Linux (WSL, Ubuntu)",
+        "Hosting (CloudFlare, render.com)",
+        "Microsoft 365 Suite (Power App, Power Automate, Power BI, SharePoint List)"
+      ]
+    },
+    {
+      "category": "Certifications",
+      "competencies": [
+        "CompTIA Security+ SYA-701",
+        "AZ-900 Microsoft Azure Fundamentals (candidate)",
+        "AZ-204 Azure Developer Associate (candidate)"
+      ]
+    },
+    {
+      "category": "Other",
+      "competencies": [
+        "UI Design",
+        "REST API Design",
+        "Data Visualization",
+        "English/Korean Bilingual"
+      ]
+    }
+  ]
+}

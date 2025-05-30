@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "projectName": "COMP/CON",
+      "repository": {
+        "link": "https://github.com/massif-press/compcon/pulls/nimoooos",
+        "imgAlt": "COMP/CON Pull Requests",
+        "imgSrc": "https://img.shields.io/badge/GitHub-Pull_Requests-Black"
+      },
+      "technologies": "TypeScript, Vue, Node.js, GitHub",
+      "roles": [
+        {
+          "role": "Open Source Contributor",
+          "longDescription": "While onboarding, I self-taught Vue.js and quickly ramped up on a high-complexity codebase, contributing new features to improve both functionality and user experience. I implemented a data visualization tool that allows users to export session prep materials, and collaborated closely with the expansion’s lead designer to deliver a key narrative feature ahead of release. Throughout the process, I adhered to commit guidelines and adopted best practices in collaborative development within an active open-source project.",
+          "bulletPoints": [
+            "Collaborated with expansion lead to deliver a core narrative feature ahead of release, maintaining system stability and performance.",
+            "Designed and implemented a data visualization tool for exporting prep materials, expanding accessibility for a wider user base.",
+            "Delivered targeted, effective solutions by collaborating with users, designers, and developers to gather and refine requirements.",
+            "Streamlined code reviews by writing clear, standards-compliant pull request summaries in line with community guidelines."
+          ]
+        }
+      ]
+    },
+    {
+      "projectName": "Professional Portfolio Website",
+      "repository": {
+        "link": "https://github.com/nimoooos/resume-react",
+        "imgAlt": "GitHub Repository",
+        "imgSrc": "https://img.shields.io/badge/GitHub-Repository-Black"
+      },
+      "technologies": "JavaScript (React), HTML (CSS, Bootstrap), CloudFlare, GitHub",
+      "roles": [
+        {
+          "role": "Webmaster",
+          "longDescription": "Designed and developed a website to showcase projects and skills. Implemented responsive design principles to ensure optimal viewing experience across devices. Utilized CloudFlare for domain management and hosting.",
+          "bulletPoints": [
+            "Built and deployed a personal website to showcase technical projects, development skills, and professional experience.",
+            "Implemented responsive UI design principles for optimal viewing experience across devices.",
+            "Managed domain and hosting infrastructure via CloudFlare, supporting over 1,000 unique monthly visitors."
+          ]
+        }
+      ]
+    },
+    {
+      "projectName": "Electronic Training Resource Integration Council (eTRIC)",
+      "repository": {
+        "link": "",
+        "imgAlt": "Decommissioned",
+        "imgSrc": "https://img.shields.io/badge/GitLab-Decommissioned-red"
+      },
+      "technologies": "Java (SpringBoot), JavaScript (Angular), Database (Postgres), Docker, GitLab, Linux (WSL, Ubuntu), OWASP ZAP",
+      "roles": [
+        {
+          "role": "Maintainer",
+          "longDescription": "Led the maintenance of eTRIC for 6 months. Faced challenges as the sole maintainer of the project with minimal documentation, and eventually led to decommissioning of eTRIC due to resource constraints. Following the determination, immediately began identifying alternate solutions to continue the functionality of the project.",
+          "bulletPoints": [
+            "Maintained a legacy system with limited documentation, troubleshooting issues independently to ensure stability and system availability under complex condition.",
+            "Initiated and led the system’s decommissioning effort, designing a long-term replacement (PATRIC) to improve scalability, maintainability, and alignment with evolving stakeholder needs.",
+            "Conduct monthly system audits to identify and address potential issues, ensuring system reliability and performance."
+          ]
+        }
+      ]
+    },
+    {
+      "projectName": "Power App for Training Resource Integration Council (PATRIC)",
+      "repository": {
+        "link": "",
+        "imgAlt": "Proprietary",
+        "imgSrc": "https://img.shields.io/badge/Power_App-Proprietary-red"
+      },
+      "technologies": "Microsoft 365 Suite (Power App, SharePoint List, Power Automate), OData",
+      "roles": [
+        {
+          "role": "Lead Developer",
+          "longDescription": "Led development of PATRIC in accordance with regulatory and end user requirements. Utilized ODATA queries for data retrieval and implemented CRUD functionality for bids, enabling administrators and bidders to manage bids efficiently. Created user-friendly data visualization through consistent feedback cycle, facilitating resource management for 30 entities, including Joint Forces such as the US Army, Navy, Marines, and Air Force, encompassing over 300 ranges and providing visualization of bidding activities.",
+          "bulletPoints": [
+            "Led stakeholder engagement to align product requirements with business needs, ensuring timely delivery and functional alignment.",
+            "Translated user feedback into scalable features and an intuitive UI, improving usability and performance.",
+            "Built an internal app that reduced decision-making time by 80%, cutting quarterly planning cycles from up to two weeks to under one day and saving days of executive time.",
+            "Supported resource coordination across 30+ government entities by streamlining the presentation of 1,000+ annual bids for 300+ training ranges."
+          ]
+        }
+      ]
+    },
+    {
+      "projectName": "Tropic Lightning Week Homepage",
+
+      "repository": {
+        "link": "https://github.com/nimoooos/Guadalcanal-Cup-Scoring",
+        "imgAlt": "Guadalcanal-Cup-Scoring Repository",
+        "imgSrc": "https://img.shields.io/badge/GitHub-Repository-Black"
+      },
+      "technologies": "Python (Flask, SQLAlchemy), SQL (Postgres, ORM), HTML (CSS, Bootstrap, JavaScript), render.com",
+      "roles": [
+        {
+          "role": "Lead Developer",
+          "longDescription": "Developed a web-based scoring application for managing scores in a sports tournament involving 20 teams and 18 events. Implemented CRUD operations and score calculation algorithms based on team placements and event weights. Identified bottleneck and optimized load time by implementing snapshotting for database access, resulting in an 85% reduction in load time. Implemented CSV export functionality for quick and easy data backup and sharing.",
+          "bulletPoints": [
+            "Developed a real-time, web-based leaderboard, supporting 20 teams across 18 events.",
+            "Implemented CRUD operations and score calculation algorithms based on user requirements, streamlining the previous Excel-based system.",
+            "Identified and optimized database access bottleneck, reducing worst case load time by up to 85%.",
+            "Collaborated with event owners to implement CSV export functionality, enabling data backup and providing a reliable fallback during system disruptions.",
+            "Trained and mentored team members on the codebase to support knowledge transfer and ensure a smooth project transition."
+          ]
+        }
+      ]
+    },
+    {
+      "projectName": "DFAC Dash",
+      "repository": {
+        "link": "",
+        "imgAlt": "Proprietary",
+        "imgSrc": "https://img.shields.io/badge/GitHub-Proprietary-red"
+      },
+      "technologies": "JavaScript (React-CRA, bcrypt, Axios(REST API), Express, Node.js), Database (MongoDB, Postgres), HTML (CSS, Bootstrap), GitHub, Docker",
+      "roles": [
+        {
+          "role": "Frontend Developer",
+          "longDescription": "Contributed to the development of a web application aimed at optimizing operations for military Dining Facilities (DFACs), facilitating the seamless handling of to-go orders from receipt to handoff. Primarily worked on frontend, attempting to minimize the number of clicks needed to perform primary function. Produced during Bravo 11 Hackathon.",
+          "bulletPoints": [
+            "Competed in Bravo 11 Hackathon, contributing to the completion of project prototype within deadline.",
+            "Collaborated on API design to ensure smooth integration between frontend and backend components.",
+            "Advocated for and implemented Docker to improve environment consistency and streamline team collaboration.",
+            "Authored installation instructions to support team onboarding and reduce setup time."
+          ]
+        },
+        {
+          "role": "Database Transition Lead",
+          "longDescription": "Played an instrumental role in upgrading the database from PostgreSQL to MongoDB, enhancing code readability, maintainability, and scalability. This upgrade also involved the design and implementation of a REST API to enable efficient communication between components.",
+          "bulletPoints": [
+            "Adopted MongoDB for its JSON-style storage format, improving data compatibility with web standards.",
+            "Refactored raw SQL queries and implemented ORM, enhancing code readability and maintainability.",
+            "Designed and implemented a REST API to facilitate efficient communication between components."
+          ]
+        }
+      ]
+    }
+  ]
+}
