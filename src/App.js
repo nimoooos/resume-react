@@ -9,7 +9,7 @@ import "./App.css";
 //Component import
 import Navi from "./Subcomponents/Navi";
 // import HomeRoute from "./Components/HomeRoute";
-import ResumeRoute from "./Components/ResumeRoute";
+import ResumeRoute from "./Components/Resume/ResumeRoute";
 import Contacts from "./Components/Contacts";
 import Redirect from "./Components/Redirect";
 import HomeRoute from "./Components/HomeRoute";
